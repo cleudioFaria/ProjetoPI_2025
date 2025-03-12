@@ -1,0 +1,11 @@
+# Ignorar dependências do Node.js
+node_modules/
+package-lock.json
+
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
