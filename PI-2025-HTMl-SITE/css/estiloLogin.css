@@ -1,0 +1,52 @@
+ /* *********************************************** */
+     /* scrip do login */
+
+     body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+    .login-container {
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+        margin-left:40px;
+    }
+    .login-container h2 {
+        margin-bottom: 20px;
+         
+    }
+    .input-field {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .login-button {
+        width: 100%;
+        padding: 10px;
+        background: #6a11cb;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    .login-button:hover {
+        background: #2575fc;
+    }
+
+
+    /* estilizaçao do h1 da pagina login */
+    h1{
+        text-align:center;
+        margin-left:35px;
+    }
