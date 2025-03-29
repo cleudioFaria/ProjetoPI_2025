@@ -6,47 +6,47 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background: linear-gradient(to right, #6a11cb, #2575fc);
+        background: linear-gradient(to top, #323232, #080808);
         font-family: Arial, sans-serif;
         margin: 0;
     }
     .login-container {
-        background: white;
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 300px;
+        background: #00000064;
+        padding: 16px;
+        border-radius: 16px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        width: 512px;
+        color: white;
         text-align: center;
-        margin-left:40px;
     }
     .login-container h2 {
-        margin-bottom: 20px;
-         
+        margin-bottom: 32px;
     }
     .input-field {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #ccc;
-        border-radius: 5px;
+        width: 80%;
+        padding: 8px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        border-radius: 4px;
     }
     .login-button {
-        width: 100%;
-        padding: 10px;
-        background: #6a11cb;
-        color: white;
+        width: 20%;
+        padding: 8px;
+        background: #161616;
+        color: gray;
         border: none;
-        border-radius: 5px;
+        border-radius: 4px;
         cursor: pointer;
         font-size: 16px;
     }
     .login-button:hover {
-        background: #2575fc;
+        background: orange;
+        color: black
     }
 
 
     /* estilizaçao do h1 da pagina login */
     h1{
         text-align:center;
-        margin-left:35px;
+        margin-left:32px;
     }
