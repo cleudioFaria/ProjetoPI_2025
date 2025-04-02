@@ -61,28 +61,30 @@ Interface intuitiva e responsiva para melhor usabilidade
 # 📝 Instalação e Execução
 
 Clone este repositório:
-
+```
 git clone https://github.com/seu-usuario/projeto-integrado.git
-
+```
 Acesse a pasta do projeto:
-
+```
 cd projeto-integrado
-
+```
 Instale as dependências do backend e frontend:
-
-cd backend && npm install
-cd ../frontend && npm install
-
+```
+cd backend
+npm install
+cd ../frontend
+npm install
+```
 Configure as variáveis de ambiente (arquivo .env no backend).
 
 Execute o backend:
-
+```
 npm run dev
-
+```
 Execute o frontend:
-
+```
 npm start
-
+```
 # 📌 Próximos Passos
 
 Implementação de testes automatizados
